@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     // For testing - UNCOMMENT the line below
-    freopen("input.txt", "r", stdin);
+    freopen("test_cases/input_01.txt", "r", stdin);
     
     int n;
     cin >> n;
