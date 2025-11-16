@@ -1,0 +1,20 @@
+{
+    "name": "USACO Club - C++",
+    "image": "mcr.microsoft.com/devcontainers/cpp:ubuntu-22.04",
+    
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "formulahendry.code-runner"
+            ],
+            "settings": {
+                "code-runner.executorMap": {
+                    "cpp": "cd $dir && g++ -std=c++17 -O2 -Wall $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+                }
+            }
+        }
+    },
+
+    "postCreateCommand": "echo 'C++ environment ready! Compiler:' && g++ --version | head -1"
+}
