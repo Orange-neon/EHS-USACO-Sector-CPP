@@ -13,7 +13,8 @@ Given an array of integers and a target sum, find the indices of two values in t
 ## Example
 **Input:**
 
-5, 9
+5 9
+
 1 2 3 4 5
 
 **Output:**
